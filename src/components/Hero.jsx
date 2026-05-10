@@ -100,9 +100,9 @@ export default function Hero() {
           <div className="flex items-center gap-4 pt-8">
             <div className="glass-card rounded-full flex items-center px-2 py-2 gap-2 bg-black/40 border-surface-border/50">
               <SocialLink href="https://github.com/NidadavoluNandini" icon={<FaGithub size={18} />} />
-              <SocialLink href="https://www.linkedin.com/in/nandini-nidadavolu/" icon={<FaLinkedin size={18} />} />
+              <SocialLink href="https://www.linkedin.com/in/nidadavolu-nandini-bba9a02a4" icon={<FaLinkedin size={18} />} />
               <SocialLink href="https://www.instagram.com/nidadavolunandini/" icon={<FaInstagram size={18} />} />
-              <SocialLink href="mailto:nidadhavolunandhini@gmail.com" icon={<Mail size={18} />} />
+              <SocialLink href="mailto:nidadavolunandini@gmail.com" icon={<Mail size={18} />} />
             </div>
           </div>
         </motion.div>
