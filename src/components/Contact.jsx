@@ -25,7 +25,7 @@ export default function Contact() {
         })
       });
       const data = await res.json();
-      
+
       if (data.success) {
         setStatus('success');
         setFormData({ name: '', email: '', subject: '', message: '' });
@@ -42,7 +42,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative min-h-screen py-24 flex items-center justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 w-full z-10">
-        
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +57,7 @@ export default function Contact() {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          
+
           {/* Left: Contact Info */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -68,14 +68,14 @@ export default function Contact() {
           >
             <div className="glass-card p-8 rounded-3xl relative overflow-hidden group">
               <div className="absolute -right-10 -top-10 w-40 h-40 bg-accent rounded-full blur-[80px] opacity-20 group-hover:opacity-40 transition-opacity"></div>
-              
+
               <h3 className="text-3xl font-heading font-bold mb-6">Let's build something extraordinary together.</h3>
               <p className="text-foreground/70 mb-8 leading-relaxed">
                 Whether you have a question, a project proposal, or just want to say hi, my inbox is always open. I'll try my best to get back to you!
               </p>
 
               <div className="space-y-4">
-                <a href="mailto:nidadhavolunandhini@gmail.com" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/5 transition-colors group/link">
+                <a href="mailto:nidadavolunandini@gmail.com" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/5 transition-colors group/link">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/link:bg-accent group-hover/link:text-white transition-colors">
                     <Mail size={20} />
                   </div>
@@ -84,7 +84,7 @@ export default function Contact() {
                     <div className="font-medium">nidadhavolunandhini@gmail.com</div>
                   </div>
                 </a>
-                
+
                 <a href="https://github.com/NidadavoluNandini" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/5 transition-colors group/link">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/link:bg-accent group-hover/link:text-white transition-colors">
                     <FaGithub size={20} />
@@ -95,7 +95,7 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <a href="https://www.linkedin.com/in/nandini-nidadavolu/" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/5 transition-colors group/link">
+                <a href="https://www.linkedin.com/in/nidadavolu-nandini-bba9a02a4" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/5 transition-colors group/link">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/link:bg-accent group-hover/link:text-white transition-colors">
                     <FaLinkedin size={20} />
                   </div>
@@ -127,7 +127,7 @@ export default function Contact() {
           >
             <form onSubmit={handleSubmit} className="glass-card p-8 rounded-3xl space-y-6 relative overflow-hidden group">
               <div className="absolute -left-10 -bottom-10 w-40 h-40 bg-[#C084FC] rounded-full blur-[80px] opacity-20 group-hover:opacity-40 transition-opacity"></div>
-              
+
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm text-foreground/70 font-mono ml-2">Name</label>
